@@ -1,21 +1,32 @@
-> With this function, you determine which parts of the database you will operate on.
+> With this function, you can replace the data you want from the database.
 
 ------------
 
 ### Syntax:
 ```javascript
-    MongoInit(dataSource, database, collection);
+    mongo_replace_data(filter, replace_data, object, variable_name)
 ```
+|Parameters   | Description  |
+| :------------ | :------------ |
+| filter  | The replace action overwrites the first document in the collection that matches this filter.  |
+|replace_data |that specifies how to modify matched documents. |
+| object  | If you want to synchronize the variable of which instance, write that instance. If you want to change the variable in the object where the code is run, use self.  |
+|  variable_name | If you want to change which variable of the instance you entered, enter the name of that variable.  |
+
 ------------
 
 
 ### Returns:
-`Database Object`
+`Struct`
+
+*Example Return:*
+`{ "matchedCount": 1, "modifiedCount": 1 }`
 
 ------------
 
 ### Example:
 ```javascript
-    my_database_1= new MongoInit("Eneskp3441","GamemakerStudioTest","users")
+test = -1;
+my_database_1.mongo_replace_data( {"name" : "Eneskp3441"}, {"name" : "Eneskp3441", "score" : 0, "verify" : true}, self, "my_variable")
  ```
- ![](https://i.hizliresim.com/9lc1gnu.png)
+*This code will replace the "name" EnesKp3441 data in the database with the new data you specified.*
