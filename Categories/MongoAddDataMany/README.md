@@ -4,18 +4,22 @@
 
 ### Syntax:
 ```javascript
-    MongoInit(dataSource, database, collection);
+    mongo_add_data_many(dataArray);
 ```
 ------------
 
 
 ### Returns:
-`Database Object`
+`None`
 
 ------------
 
 ### Example:
 ```javascript
-    my_database_1= new MongoInit("Eneskp3441","GamemakerStudioTest","users")
+    my_database_1.mongo_add_data_many( [ 
+		{"name" : "Enes", "score" : 0 } ,
+		{"name" : "Koyan", "score" : 0 } ,
+		{"name" : "Roalinn", "score" : 0 } ,
+]);
  ```
- ![](https://i.hizliresim.com/9lc1gnu.png)
+ ![](https://i.hizliresim.com/puza8di.png)
