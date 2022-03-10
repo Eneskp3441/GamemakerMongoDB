@@ -8,6 +8,7 @@
 1. Import the yymps file. Click **"Add All"** and **"Import"** button
 1. Click the create event on the [MongoDB](https://www.mongodb.com "MongoDB") object. Write your mongo database **API** to the **API_KEY** variable. [Create One Api Key](https://docs.atlas.mongodb.com/tutorial/configure-api-access/organization/create-one-api-key/ "Create One Api Key")
 ![](https://i.hizliresim.com/7t64a0i.png)
+1. Paste the **"data-..."** part after **"app/"** from the **"URL ENDPOINT"** field from the **Data API** section to the part in the base_url.![](https://i.hizliresim.com/3ajp4r8.png)![](https://i.hizliresim.com/mu9c3zs.png)
 ## Commands
 - [MongoInit](https://github.com/Eneskp3441/GamemakerMongoDB/tree/main/Categories/MongoInit "MongoInit") *(**dataSource**:string, **database_name**:string, **collection_name**:string)*
 - [mongo_add_data](https://github.com/Eneskp3441/GamemakerMongoDB/tree/main/Categories/MongoAddData "mongo_add_data") *(**data**:struct)*
