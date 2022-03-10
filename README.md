@@ -3,6 +3,7 @@
 <h1><a href="https://github.com/Eneskp3441">Eneskp3441</a> - Gamemaker <a href="https://www.mongodb.com">MongoDB</a></h1>
 </div>
 
+[Watch Turkish tutorial video](https://www.youtube.com/watch?v=pYKpUNpo-P0 "Watch Turkish tutorial video")🔗
 ## Installation
 1. [Download](https://github.com/Eneskp3441/GamemakerMongoDB/releases "Download") the project here.
 1. Import the yymps file. Click **"Add All"** and **"Import"** button
