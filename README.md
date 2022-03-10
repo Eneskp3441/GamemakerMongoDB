@@ -1,8 +1,12 @@
 <div align="center" style="text-align: center;">
 <img src="https://avatars.githubusercontent.com/u/100702845?v=4" height="100">
-<h1><a href="https://github.com/Eneskp3441">Eneskp3441</a> - Gamemaker MongoDB</h1>
+<h1><a href="https://github.com/Eneskp3441">Eneskp3441</a> - Gamemaker [MongoDB](https://www.mongodb.com "MongoDB")</h1>
 </div>
-
+## Installation
+1. [Download](https://github.com/Eneskp3441/GamemakerMongoDB/releases "Download") the project here.
+1. Import the yymps file. Click **"Add All"** and **"Import"** button
+1. Click the create event on the [MongoDB](https://www.mongodb.com "MongoDB") object. Write your mongo database **API** to the **API_KEY** variable. [Create One Api Key](https://docs.atlas.mongodb.com/tutorial/configure-api-access/organization/create-one-api-key/ "Create One Api Key")
+![](https://i.hizliresim.com/7t64a0i.png)
 ## Commands
 - [MongoInit](https://github.com/Eneskp3441/GamemakerMongoDB/tree/main/Categories/MongoInit "MongoInit") *(**dataSource**:string, **database_name**:string, **collection_name**:string)*
 - [mongo_add_data](https://github.com/Eneskp3441/GamemakerMongoDB/tree/main/Categories/MongoAddData "mongo_add_data") *(**data**:struct)*
