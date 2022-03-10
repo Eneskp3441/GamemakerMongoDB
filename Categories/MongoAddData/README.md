@@ -1,23 +1,21 @@
-> With this function, you can add any data you want to your database.
- ```javascript
-    my_database_1.mongo_add_data( {"name" : "Enes", "score" : 0 } )
-```
+> With this function, you determine which parts of the database you will operate on.
+
 ------------
 
 ### Syntax:
- ```javascript
-    mongo_add_data(data:struct)
+```javascript
+    MongoInit(dataSource, database, collection);
 ```
 ------------
 
 
 ### Returns:
-`None`
+`Database Object`
 
 ------------
 
 ### Example:
- ```javascript
-    my_database_1		= new MongoInit("myName","myDatabase","myCluster")
-    my_database_1.mongo_add_data( {"name" : "Enes", "score" : 0 } )
+```javascript
+    my_database_1= new MongoInit("Eneskp3441","GamemakerStudioTest","users")
  ```
+ ![](https://i.hizliresim.com/9lc1gnu.png)
